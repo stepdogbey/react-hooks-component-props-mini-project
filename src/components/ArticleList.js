@@ -27,6 +27,7 @@ function ArticleList() {
               title={postDetails.title}
               preview={postDetails.preview}
               date={postDetails.date}
+              minutes={postDetails.minutes}
             />
           </React.Fragment>
         );
